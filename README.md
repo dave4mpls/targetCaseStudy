@@ -6,7 +6,9 @@ Because I had the week long deadline, I decided to do both case studies, even th
 
 If you prefer to just ignore one of them, then just look at the NextBus one.
 
-Additional code samples are available at my [portfolio](https://www.davewhitesoftware.com).  One that I haven't put in my portfolio yet is my new React.JS musical web app, which isn't done yet but shows a larger app being developed modularly.  The GitHub for this is [here](https://www.github.com/dave4mpls/autoaccompany) and the latest working copy of the web app is [here](https://www.davewhitesoftware.com/autoaccompany).  The musical keyboard and drums work, but it doesn't record or display musical tracks yet.
+## Additional Code Samples
+
+Additional code samples are available at my [portfolio](https://www.davewhitesoftware.com).  One that I haven't put in my portfolio yet is my new React.JS musical web app, which isn't done yet but shows a larger web app being developed modularly.  This app also shows how I can use a new-to-me-technology (I just started learning React) to create a sophisticated device-independent web user interface (which might be valuable for creating monitoring tools for the Reliability Engineer position).  The GitHub for this is [here](https://www.github.com/dave4mpls/autoaccompany) and the latest working copy of the web app is [here](https://www.davewhitesoftware.com/autoaccompany).  The musical keyboard and drums work, but it doesn't record or display musical tracks yet.  It does have many user interface elements which should work on all recent mobile or desktop browsers -- even IE 11 mostly works.
 
 ## NextBus
 Written in Python for the command line, and adapted to the web using the Brython JavaScript library.
