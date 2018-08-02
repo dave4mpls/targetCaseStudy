@@ -47,6 +47,7 @@ To Install Locally:
 Shown in PHP and also in cross-platform C, to demonstrate my abilities to create both a quick and dirty script for managing disk usage, and also a low-level cross-platform program.  (I also do C++ and Java.  I have used C and PHP extensively in the past.)
 
 Design Notes
+ * In practice I would use a scripting language like PHP for this task, it's much faster.  I only did the C version so you could see that I can go low-level if I need to, and also make it cross-platform at that level.
  * The JSON object in the design example didn't have fields, so I added a boolean indicating if an item is a directory (True) or a file (False), a field for the whole pathname, and a field for the file size.
  * Directories are listed after the files they contain, and include the total size of the whole directory in bytes.  I find this is useful when managing disk space.
  * The very last line is the original pathname you provided, and includes the size of all the files.
