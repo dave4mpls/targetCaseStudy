@@ -41,4 +41,32 @@ To Install Locally:
   * Run the program by typing `python nextbus_unittests.py`.  
   * The tests include scraping the Metro Transit user-facing website to make sure my program matches what a user would get themselves, and so depending on the timing of calling this site versus running my program, if the data changes in between, a test might fail.  However, the test program accounts for this and therefore it almost always prints "ok" meaning "all tests passed."
 
+## GetDiskUsage
+Shown in PHP and also in cross-platform C, to demonstrate my abilities to create both a quick and dirty script for managing disk usage, and also a low-level cross-platform program.  (I also do C++ and Java.)
+
+Design Notes
+ * The JSON object in the design example didn't have fields, so I added a boolean indicating if an item is a directory (True) or a file (False), a field for the whole pathname, and a field for the file size.
+ * Directories are listed after the files they contain, and include the total size of the whole directory in bytes.  I find this is useful when managing disk space.
+ * The very last line is the original pathname you provided, and includes the size of all the files.
+ * Both the C and the PHP version are UTF-8 friendly and tested on file and folder names with Unicode characters, in both Windows and Linux.
+
+Installing and Using PHP Version
+ * Download the `getdiskusage.php` program from `/GetDiskUsage/src/php_version/getdiskusage.php` on this repository.
+ * Run it at the command line, providing the mount point or folder name in the command line, e.g. `php getdiskusage.php /tmp`
+ * It will output the JSON listing to standard output.
+
+Installing the C Version under Windows
+ * Place `getdiskusage.c` and `tinydir.h` in a single folder; get these files from `/GetDiskUsage/src/c_version` on this repository.
+ * Compile using Visual Studio.  Or, if you don't want to compile, just run the executable, available at `/GetDiskUsage/win32/getdiskusage.exe` on this repository.
+ * Run the executable at a command prompt, providing a path, for example: `getdiskusage C:\temp`
+
+Compiling and Installing the C version under Linux
+ * Place `getdiskusage.c` and `tinydir.h` in a single folder; get these files from `/GetDiskUsage/src/c_version` on this repository.
+ * Compile using the following `gcc` command line: `gcc -o getdiskusage getdiskusage.c`
+ * Run the executable at a command prompt, providing a path, for example: `./getdiskusage /tmp`
+
+Testing
+ * Unicode was tested manually by creating files and folders with Unicode names in both Windows and Linux.
+ * The results from those tests in Windows can be viewed in this repository at `/GetDiskUsage/output`.  
+ * A PHP test program was created to compare the output of the C and PHP programs.  There are slightly different versions for Linux and Windows.  These are in `/GetDiskUsage/test`.  To use them, put the version for your operating system in the same folder with the PHP version and the compiled C program, and then run `php diskusagetest.php path` in Linux or `php diskusagetest_windows.php path` in Windows.  Substitute a local path on your drive for the word path.
  
