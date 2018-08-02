@@ -1,0 +1,23 @@
+{
+  "files":
+  [
+  {"directory":false,"path":"/home/dave/target/nextbus/nextbus.py","size":14127},
+  {"directory":true,"path":"/home/dave/target/nextbus","size":14127},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/out2.txt","size":169},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/out.txt","size":1533},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/test/piano🎹/staff🎼","size":6},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/test/piano🎹/note🎵","size":3},
+  {"directory":true,"path":"/home/dave/target/getdiskusage/test/piano🎹","size":9},
+  {"directory":true,"path":"/home/dave/target/getdiskusage/test/folder","size":0},
+  {"directory":true,"path":"/home/dave/target/getdiskusage/test/violin🎻","size":0},
+  {"directory":true,"path":"/home/dave/target/getdiskusage/test","size":9},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/getdiskusage.php","size":1807},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/tinydir.h","size":19106},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/diskusagetest.php","size":855},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/getdiskusage","size":14056},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/getdiskusage.c","size":7195},
+  {"directory":false,"path":"/home/dave/target/getdiskusage/outphp.txt","size":45},
+  {"directory":true,"path":"/home/dave/target/getdiskusage","size":44775},
+  {"directory":true,"path":"/home/dave/target","size":58902}
+  ]
+}
