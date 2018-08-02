@@ -6,11 +6,7 @@ Because I had the week long deadline, I decided to do both case studies, even th
 
 If you prefer to just ignore one of them, then just look at the NextBus one.
 
-## Additional Code Samples
-
-* Additional code samples are available at my [portfolio](https://www.davewhitesoftware.com).
-* Also, I am working on a React web app with GitHub source [here](https://www.github.com/dave4mpls/autoaccompany) and latest working copy [here](http://www.davewhitesoftware.com/autoaccompany).  It's not done yet (playing music and MIDI connections work, recording is not implemented), but it shows how I can use a new-to-me technology (React) to develop a sophisticated web UI that works across devices.  Imagine instead of a piano keyboard, there are network notifications or other reporting or configuration settings necessary for the Guest Reliability team, and they can access them on any phone, tablet or device.  
-* My ability to learn is also demonstrated by my [CodeSignal profile](https://app.codesignal.com/profile/dave_w11), where my score is in the top 5%.  CodeSignal is not just for students, it is used to recruit for professionals in the Bay Area.  My use of the site mostly involved moderate-to-difficult algorithmic problems in 10 different languages that I am learning or refreshing my memory in, including Python, C, C++, Java, JavaScript, TypeScript, etc.
+[Additional code samples and live demos are available](#AdditionalCode) (including new stuff that's not on my profile yet)!
 
 ## NextBus
 Written in Python for the command line, and adapted to the web using the Brython JavaScript library.
@@ -76,3 +72,9 @@ Testing
  * The results from those tests in Windows can be viewed in this repository at `/GetDiskUsage/output`.  
  * A PHP test program was created to compare the output of the C and PHP programs.  There are slightly different versions for Linux and Windows.  These are in `/GetDiskUsage/test`.  To use them, put the version for your operating system in the same folder with the PHP version and the compiled C program, and then run `php diskusagetest.php path` in Linux or `php diskusagetest_windows.php path` in Windows.  Substitute a local path on your drive for the word path.
  
+## <a name="AdditionalCode"></a>Additional Code Samples
+
+* Additional code samples are available at my [portfolio](https://www.davewhitesoftware.com).
+* Also, I am working on a React web app with GitHub source [here](https://www.github.com/dave4mpls/autoaccompany) and latest working copy [here](http://www.davewhitesoftware.com/autoaccompany).  It's not done yet (playing music and MIDI connections work, recording is not implemented), but it shows how I can use a new-to-me technology (React) to develop a sophisticated web UI that works across devices.  Imagine instead of a piano keyboard, there are network notifications or other reporting or configuration settings necessary for the Guest Reliability team, and they can access them on any phone, tablet or device.  
+* My ability to learn is also demonstrated by my [CodeSignal profile](https://app.codesignal.com/profile/dave_w11), where my score is in the top 5%.  CodeSignal is not just for students, it is used to recruit for professionals in the Bay Area.  My use of the site mostly involved moderate-to-difficult algorithmic problems in 10 different languages that I am learning or refreshing my memory in, including Python, C, C++, Java, JavaScript, TypeScript, etc.
+
