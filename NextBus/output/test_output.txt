@@ -1,0 +1,50 @@
+------------------------------------------------------------
+NextBus Unit Tests:
+These tests use realtime data and web scraping to 
+ensure that NextBus matches Metro Transit's NextTrip website.
+If you get an error, it may be that the test suite needs to be 
+modified to match changes in the Metro Transit public website.
+------------------------------------------------------------
+
+Testing full program with route: 21, stops: Snelling, direction: West
+Result: MULTIPLE MATCHES ON ROUTE: 21 - Uptown - Lake St - Selby  Av, 121 - U of M - Campus Connector, 219 - Maplewood - Century Av - Hadley Av - Sunray, 421 - Burnsville-Savage Flex, 721 - Ltd Stop - Brooklyn Center - New Hope - Mpls, 921 - A Line Roseville-St Paul-Minneapolis
+Testing full program with route: 21 - Uptown, stops: Snelling, direction: East
+Result: 17 Min
+Comparing with result from Metro Transit web page
+Web page result: 17 Min
+Testing full program with route: #21, stops: Snelling, direction: East
+Result: 17 Min
+Comparing with result from Metro Transit web page
+Web page result: 17 Min
+Testing full program with route: 927, stops: Marquette, direction: East
+Result: NO MATCH ON ROUTE
+Testing full program with route: #21, stops: 54th St, direction: West
+Result: NO MATCH ON STOP
+Testing full program with route: #21, stops: Snelling, direction: North
+Result: NO MATCH ON DIRECTION
+Testing full program with route: #21, stops: Snelling, direction: t
+Result: MULTIPLE MATCHES ON DIRECTION: EASTBOUND, WESTBOUND
+Testing full program with route: #21, stops: Snelling, direction: #any
+Result: MULTIPLE MATCHES ON DIRECTION: EASTBOUND, WESTBOUND
+Testing full program with route: Bryant, stops: Lake, direction: south
+Result: MULTIPLE MATCHES ON STOP: 39th Ave and Silver Lake Rd, Silver Lake Village , Lyndale Ave  and Lake St
+Testing full program with route: Bryant, stops: Lake St, direction: south
+Result: 15 Min
+Comparing with result from Metro Transit web page
+Web page result: 15 Min
+Testing full program with route: #5, stops: 46th, direction: north
+Result: 11 Min
+Comparing with result from Metro Transit web page
+Web page result: 11 Min
+Testing full program with route: #84, stops: Randolph, direction: north
+Result: 14 Min
+Comparing with result from Metro Transit web page
+Web page result: 14 Min
+Testing full program with route: 535, stops: Marquette Ave and 4th, direction: south
+Result: 18 Min
+Comparing with result from Metro Transit web page
+Web page result: 18 Min
+Testing full program with route: Express - Target - Hwy 252 and 73rd Av P&R - Mpls, stops: Target North Campus Building F, direction: south
+Result: Due
+Comparing with result from Metro Transit web page
+Web page result: 4:32

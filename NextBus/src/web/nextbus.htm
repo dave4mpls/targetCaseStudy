@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NextBus Web Interface</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+.mono { 
+    font-family: Courier, monospace;  
+    background-color: #e0e0e0;
+}
+.submitrow {
+    padding-top: 15px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+input {
+    border: thin solid black;
+    width: 100%;
+}
+</style>
+<script type="text/javascript" src="brython.js"></script>
+<script type="text/javascript" src="brython_stdlib.js"></script>
+<script type="text/python">
+from browser import document
+import nextbus
+
+def getNextBus(ev):
+    r = nextbus.nextBus(document["route"].value, document["stop"].value, document["direction"].value)
+    document["result"].innerText = r
+
+document["showBus"].bind("click", getNextBus)
+</script>
+</head>
+<body onload="brython(1)">
+<h3>NextBus Python Implementation in Browser (using Brython)</h3>
+<table>
+	<tr>
+		<td>Part of route name (or enter route number with #, e.g. #84):</td>
+		<td><input id="route" maxlength=255></td>
+	</tr>
+	<tr>
+		<td>Part of stop name (or enter #any to see all):</td>
+		<td><input id="stop" maxlength=255></td>
+	</tr>
+	<tr>
+		<td>Direction:</td>
+		<td>
+			<select id="direction">
+				<option value="north">North</option>
+				<option value="south">South</option>
+				<option value="east">East</option>
+				<option value="west">West</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="submitrow" colspan=2>
+		<button id="showBus">Show Next Bus Time</button>
+		</td>
+	</tr>
+</table>
+<br>
+<h3>Result:</h3>
+<span class=mono id=result></span>
+<br>
+<a target="_new" href="https://repl.it/@dave4mpls/NextBus">Interactive command line version</a> (click the link, then click run)<br>
+<a target="_new" href="https://repl.it/@dave4mpls/NextBusUnitTests">Unit tests</a> (click the link, then click run)<br>
+
+</body>
+</html>
