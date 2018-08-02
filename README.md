@@ -6,8 +6,10 @@ Because I had the week long deadline, I decided to do both case studies, even th
 
 If you prefer to just ignore one of them, then just look at the NextBus one.
 
+Additional code samples are available at my [portfolio](https://www.davewhitesoftware.com).  One that I haven't put in my portfolio yet is my new React.JS musical web app, which isn't done yet but shows a larger app being developed modularly.  The GitHub for this is [here](https://www.github.com/dave4mpls/autoaccompany) and the latest working copy of the web app is [here](https://www.davewhitesoftware.com/autoaccompany).  The musical keyboard and drums work, but it doesn't record or display musical tracks yet.
+
 ## NextBus
-written in Python for the command line, and adapted to the web using the Brython JavaScript library.
+Written in Python for the command line, and adapted to the web using the Brython JavaScript library.
 
 ### Design Summary
  * I would use a scripting language typically for a task like this.  I chose Python, which I have learned recently, to show how I can learn a new language and adapt to its stylistic requirements, in this case including unit testing modules, docstrings, etc.
@@ -42,7 +44,7 @@ To Install Locally:
   * The tests include scraping the Metro Transit user-facing website to make sure my program matches what a user would get themselves, and so depending on the timing of calling this site versus running my program, if the data changes in between, a test might fail.  However, the test program accounts for this and therefore it almost always prints "ok" meaning "all tests passed."
 
 ## GetDiskUsage
-Shown in PHP and also in cross-platform C, to demonstrate my abilities to create both a quick and dirty script for managing disk usage, and also a low-level cross-platform program.  (I also do C++ and Java.)
+Shown in PHP and also in cross-platform C, to demonstrate my abilities to create both a quick and dirty script for managing disk usage, and also a low-level cross-platform program.  (I also do C++ and Java.  I have used C and PHP extensively in the past.)
 
 Design Notes
  * The JSON object in the design example didn't have fields, so I added a boolean indicating if an item is a directory (True) or a file (False), a field for the whole pathname, and a field for the file size.
