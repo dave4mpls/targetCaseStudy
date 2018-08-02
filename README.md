@@ -22,7 +22,7 @@ To Use on the Web:
  * Use Chrome or Firefox or Edge (the Brython conversion library doesn't work in Internet Explorer).
  * Go [here](https://www.davewhitesoftware.com/target/nextbus.htm).
  * Just enter the information into the boxes and press the button.  
- * The identical Python code is running in your browser, providing the responses.
+ * The Python code is running in your browser, providing the responses.
  
 To Run Unit Tests and Command Line In Your Browser Using Repl.It:
   * Use Chrome or Firefox.
