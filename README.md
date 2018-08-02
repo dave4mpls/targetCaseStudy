@@ -6,7 +6,7 @@ Because I had the week long deadline, I decided to do both case studies, even th
 
 If you prefer to just ignore one of them, then just look at the NextBus one.
 
-[Additional code samples and live demos are available](#AdditionalCode) (including new stuff that's not on my profile yet)!
+[Additional code samples and live demos are available](#AdditionalCode) (including new stuff in React.JS that's not on my portfolio yet)!
 
 ## NextBus
 Written in Python for the command line, and adapted to the web using the Brython JavaScript library.
