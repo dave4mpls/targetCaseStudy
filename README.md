@@ -2,7 +2,7 @@
 ### Candidate: Dave White, dave 4 mpls [at] gmail [dot] com, 612-695-3289
 ### Position: Guest Reliability Engineer
 
-Because I had the week long deadline, I decided to do both case studies, even though it says to only do one.  In an actual workplace environment, of course I would only do what was asked, but here, I have the opportunity to show you several skills I have that might be relevant to your position.
+Because I had the week long deadline, I decided to do both case studies, even though it says to only do one.  In an actual workplace environment, of course I would only do what was needed, but here, I have the opportunity to show you several skills I have that might be relevant to your position.
 
 If you prefer to just ignore one of them, then just look at the NextBus one.
 
